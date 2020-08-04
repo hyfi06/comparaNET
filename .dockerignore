@@ -1,0 +1,5 @@
+venv/
+*/.ipynb_checkpoints/*
+contratacionesabiertas_bulk.json
+contratacionesabiertas_bulk.json.zip
+Data Science - CompraNET.pdf
