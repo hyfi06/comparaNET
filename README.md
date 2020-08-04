@@ -54,7 +54,3 @@ jupyter-notebook &
 ```
 
 Select _comparaNET_ kernel
-
-```bash
-docker run -d --name db mongo:comparaNET
-```
