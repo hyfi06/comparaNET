@@ -25,7 +25,7 @@ pip3 install -r requirements.txt
 ### Crate Kernel ipython
 
 ```bash
-ipython kernel install --user --name=comparaNET
+ipython kernel install --user --name=env_kernel
 ```
 
 ### Install docker db
@@ -44,7 +44,7 @@ Unzip `contratacionesabiertas_bulk.json`
 ### Load data in mongodb
 
 ```bash
-mongoimport --host localhost --port 27018 --db comparanet --collection contrataciones --file contratacionesabiertas_bulk.json --jsonArray
+mongoimport --host localhost --port 27018 --db comparanet --collection contracts --file contratacionesabiertas_bulk.json --jsonArray
 ```
 
 ## Run
@@ -53,4 +53,4 @@ mongoimport --host localhost --port 27018 --db comparanet --collection contratac
 jupyter-notebook &
 ```
 
-Select _comparaNET_ kernel
+Select `env_kernel` kernel
